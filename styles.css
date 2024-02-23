@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  background: linear-gradient(#00d7ef, #00b8ec, #249fec);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.ask,
+.saidYes {
+  color: white;
+  text-align: center;
+}
+
+.btn {
+  text-align: center;
+  margin-right: 30px;
+}
+
+.yes,
+.no,
+.fixDate {
+  color: white;
+  background-color: #0075ff;
+  border-style: none;
+  border-radius: 25%;
+  padding: 15px;
+  border-bottom: 5px solid #50525f;
+  margin: 10px;
+}
+.no {
+  position: absolute;
+  transition: transform 0.3s ease;
+}
+.saidYes {
+  display: none;
+}
+.fixDate {
+  border-radius: 10px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.selectDate {
+  display: none;
+}
+.selectDate h1 {
+  color: deeppink;
+  font-size: 40px !important;
+}
