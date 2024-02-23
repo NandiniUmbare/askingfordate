@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background: linear-gradient(#00d7ef, #00b8ec, #249fec);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.ask {
+    color: white;
+    text-align: center;
+}
+
+.btn {
+    text-align: center;
+}
+
+.yes,
+.no {
+    color: white;
+    background-color: #0075ff;
+    border-style: none;
+    border-radius: 25%;
+    padding: 15px;
+    border-bottom: 5px solid #50525f;
+    margin: 10px;
+}
+  
