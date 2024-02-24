@@ -52,3 +52,32 @@ body {
   color: deeppink;
   font-size: 40px !important;
 }
+
+@media screen and (min-width: 512px) {
+  .content {
+    font-size: xxx-large;
+  }
+  .selectDate h1 {
+    font-size: 80px !important;
+  }
+  img {
+    height: 100%;
+  }
+  .saidYes img {
+    height: 50%;
+  }
+  .yes,
+  .no {
+    padding: 100px;
+    font-size: larger;
+  }
+  .fixDate {
+    border-radius: 20%;
+    padding: 60px;
+    font-size: larger;
+  }
+  .btn {
+    margin-top: 50%;
+    margin-right: 30%;
+  }
+}
